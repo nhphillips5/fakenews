@@ -92,5 +92,9 @@ print(roc_auc_score(y_test, y_probrf))
 print(accuracy_score(y_test, yhatrf))
 print(f1_score(y_test, yhatrf))
 ```
-
+```
+0.9888483046648262
+0.9497596153846154
+0.9494436381228833
+```
 Looks like we are about 95% accurate! Awesome!
